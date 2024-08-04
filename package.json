@@ -1,0 +1,16 @@
+{
+  "name": "kafka-ssl-consumer",
+  "version": "1.0.0",
+  "description": "Kafka Consumer that uses SSL Certificates for authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Bala Tamilmani",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "kafkajs": "^2.2.4",
+    "winston": "^3.13.1"
+  }
+}
